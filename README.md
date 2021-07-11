@@ -10,7 +10,7 @@ To Run
 
 ```bash
 cd services
-node .
+npm start
 ```
 
 ## Dependencies
