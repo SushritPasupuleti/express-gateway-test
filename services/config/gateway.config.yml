@@ -7,6 +7,12 @@ apiEndpoints:
   api:
     host: localhost
     paths: '/ip'
+  user:
+    host: localhost
+    paths: ['/users','/users/*']
+  items:
+    host: localhost
+    paths: ['/items','/items/*']
 serviceEndpoints:
   httpbin:
     url: 'https://httpbin.org'
