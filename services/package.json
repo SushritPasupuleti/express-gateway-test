@@ -10,7 +10,7 @@
     "express-gateway": "^1.16.11"
   },
   "scripts": {
-    "start": "babel-node $1"
+    "start": "nodemon --exec babel-node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
