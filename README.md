@@ -26,3 +26,9 @@ Babel
 ```bash
 npm install @babel/core @babel/node @babel/preset-env --save-dev
 ```
+
+Create babel file
+
+```bash
+touch .babelrc
+```
