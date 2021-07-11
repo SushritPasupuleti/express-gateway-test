@@ -12,3 +12,17 @@ To Run
 cd services
 node .
 ```
+
+## Dependencies
+
+Express
+
+```bash
+npm install express --save
+```
+
+Babel
+
+```bash
+npm install @babel/core @babel/node @babel/preset-env --save-dev
+```
