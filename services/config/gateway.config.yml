@@ -40,3 +40,23 @@ pipelines:
           - action:
               serviceEndpoint: httpbin 
               changeOrigin: true
+  userPipeline:
+    apiEndpoints:
+      - user
+    policies:
+    # Uncomment `key-auth:` when instructed to in the Getting Started guide.
+    # - key-auth:
+      - proxy:
+          - action:
+              serviceEndpoint: userService
+              changeOrigin: true
+  itemsPipeline:
+    apiEndpoints:
+      - items
+    policies:
+    # Uncomment `key-auth:` when instructed to in the Getting Started guide.
+    # - key-auth:
+      - proxy:
+          - action:
+              serviceEndpoint: itemsService
+              changeOrigin: true
