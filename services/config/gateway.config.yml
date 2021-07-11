@@ -18,7 +18,7 @@ serviceEndpoints:
     url: 'https://httpbin.org'
   userService:
     url: 'http://localhost:3000'
-  ItemsService:
+  itemsService:
     url: 'http://localhost:8000'
 policies:
   - basic-auth
